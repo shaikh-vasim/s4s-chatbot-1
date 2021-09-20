@@ -9,7 +9,7 @@ import nltk
 # import datetime
 from nltk.stem.lancaster import LancasterStemmer
 import COVID19Py
-
+nltk.download('punkt')
 
 stemmer = LancasterStemmer()
 seat_count = 50
