@@ -269,7 +269,8 @@
                 "you're a robot"
             ],
             "responses": [
-                "I'm a Stella Chatbot available to help you 24x7"
+                "I'm a Stella Chatbot available to help you 24x7",
+                "yes, of course"
             ],
             "context_set": ""
         },
