@@ -97,7 +97,7 @@ def get_bot_response():
                         responses = tg['responses']
                 response = random.choice(responses)
         else:
-            response = "I didn't quite get that, please try again."
+            response = "Sorry..!, I didn't get that, please try again"
         return str(response)
     return "Missing Data!"
 
