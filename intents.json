@@ -1,0 +1,794 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "Whats cooking"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?",
+                "Hello! I'm Stella. How may I help you?",
+                "Hey there!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "cya later",
+                "I gotta go now",
+                "I gotta rush now"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old is Stella",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "My master built me just a month ago.",
+                "Just a month old!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Stella.",
+                "I'm Stella!",
+                "I'm Stella aka The S4S Superbot."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "hours",
+                "what is the timing"
+            ],
+            "responses": [
+                "We are open 24x24 Monday-Sunday!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact information",
+                "contact us",
+                "how can i contact you",
+                "can i get the contact details",
+                "I wanna give some feedback",
+                "how can i give some feedback?"
+            ],
+            "responses": [
+                "You can contact us at students4students20@gmail.com"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need a hand",
+                "I need help",
+                "I need some help",
+                "I need you help me now",
+                "I need you right now",
+                "I need you to do something for me",
+                "I need you to help me",
+                "I need your help",
+                "I want your help",
+                "are you going to help me",
+                "assist",
+                "assist me",
+                "assistance",
+                "can help me",
+                "can u help me",
+                "can you assist me",
+                "could you give me a hand",
+                "do me a favor",
+                "do you help me",
+                "do you want to help me",
+                "help",
+                "help me",
+                "help me out",
+                "help me with a problem",
+                "help me with that",
+                "help us",
+                "need help",
+                "need your help",
+                "please help me",
+                "sos",
+                "will you help me",
+                "would you help me",
+                "you can help me help me with something",
+                "you help me"
+            ],
+            "responses": [
+                "Sure. ",
+                "I'd be happy to.",
+                "What's up?",
+                "I'm glad to help. ",
+                "What can I do for you?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": " Language  ",
+            "patterns": [
+                "bad language",
+                "your language is bad",
+                "please watch your language",
+                "watch your language"
+            ],
+            "responses": [
+                "Sorry i'm not programmed to curse.",
+                "My language is incroyable.",
+                "I rarely curse and when I do it is cause people make me.",
+                "I'm sorry",
+                "I apologize for my rude rantings."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": " Birth_Date  ",
+            "patterns": [
+                "date of your birthday",
+                "what's your birthday",
+                "what's your birthday date",
+                "when do you celebrate your birthday",
+                "when do you have birthday",
+                "when is your birthday",
+                "when were you born",
+                "your birth date"
+            ],
+            "responses": [
+                "I m all for celebrating my birthday at anytime but my birthday is March 6th"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": " Good_Night  ",
+            "patterns": [
+                " sweet dreams",
+                "good night",
+                "have a good night",
+                "good night to you",
+                "thank you good night bye ",
+                "good night",
+                "good night bye",
+                "bye good night",
+                "good night",
+                "good night for now",
+                "goodnight",
+                "night",
+                "thanks goodnight",
+                "good night see you tomorrow",
+                "alright goodnight",
+                "good tonight",
+                "okay have a good night",
+                "have a good night"
+            ],
+            "responses": [
+                "Sleep tight!",
+                "Have a good one!",
+                "Talk to you soon!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": " bot_Purpose",
+            "patterns": [
+                "Are you a bot?",
+                "Are you a human or a bot?",
+                "How does this work?",
+                "I guess you're real",
+                "I suppose you're real",
+                "I think you are real",
+                "I wanted to understand what exactly this is?",
+                "Is this a human?",
+                "What do you do?",
+                "about you",
+                "about yourself",
+                "are you a bot",
+                "are you a chatbot",
+                "are you a chatbot or human?",
+                "are you a chatbot?",
+                "are you a program",
+                "are you a real human",
+                "are you a real human?",
+                "are you a real person?",
+                "are you a robot?",
+                "are you human?",
+                "are you just a bot",
+                "bot or human?",
+                "can you explain this to me?",
+                "can you understand",
+                "define what you do",
+                "describe what you do",
+                "do you have a hobby?",
+                "glad you're real",
+                "help me?",
+                "how can it help me?",
+                "how can you help me",
+                "how can you help me?",
+                "how can you help?",
+                "human or bot?",
+                "introduce yourself",
+                "is this a bot?",
+                "talk about yourself",
+                "tell me about you",
+                "tell me about your hobby",
+                "tell me what you do",
+                "tell me what you do?",
+                "this is a bot?",
+                "what about your hobby",
+                "what are you",
+                "who are you?",
+                "why are you here",
+                "you are a bot",
+                "you are a chatbot",
+                "you are a real person",
+                "you are not real",
+                "you are real",
+                "you are so real",
+                "you are very real",
+                "you're a chatbot",
+                "you're a robot"
+            ],
+            "responses": [
+                "I'm a Stella Chatbot available to help you 24x7"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": " Good_Evening ",
+            "patterns": [
+                "good evening",
+                "good evening to you",
+                "hey good evening",
+                "hello good evening",
+                "evening",
+                "good evening there"
+            ],
+            "responses": [
+                "How is your day going?",
+                "How's the day treating you so far?",
+                "How's your day been?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": " Good_Morning  ",
+            "patterns": [
+                "good morning",
+                "good morning to you",
+                "hello good morning",
+                "have a nice morning",
+                "have a great morning",
+                "morning ",
+                "good morning there",
+                "top of the morning to you",
+                "a good morning",
+                "good morning to you",
+                "hi good morning",
+                "and a good morning to you",
+                "good morning too"
+            ],
+            "responses": [
+                "How are you this morning?",
+                "How's the morning treating you so far?",
+                "Good morning! How are you today?"
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Ted, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Karan Malik."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "vasim",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is vasim",
+                "shaikh vasim "
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/shaikh-vasim Github: https://github.com/shaikh-vasim"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact s4s",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : students4students20@gmail.com"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Karan very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+       
+        {
+            "tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2021, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "s4s",
+            "patterns": [
+                "What is s4s?",
+                "S4S",
+                "students 4 students"
+            ],
+            "responses": [
+                "s4s is an organization started by students for helping other students grow with them and think out of bix."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "students_4_students",
+            "patterns": [
+                "What is s4s?",
+                "s4s",
+                "students 4 students"
+            ],
+            "responses": [
+                "s4s is an organization started by students for helping other students grow with them and think out of bix."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "organization",
+            "patterns": [
+                "Why you started this organization?",
+                "started this organization",
+                "s4s",
+                "students 4 students"
+            ],
+            "responses": [
+                "s4s is an organization started by students for helping other students grow with them and think out of bix.",
+                "We started this organization, as we observed in lockdown that there was need of interaction among students, there was need of sharing knowledge and other things that you will come to know as you connect with us!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "activities",
+            "patterns": [
+                "What is s4s?",
+                "What activities have been taken under it?",
+                "s4s",
+                "students 4 students"
+            ],
+            "responses": [
+                "s4s is an organization started by students for helping other students grow with them and think out of bix.",
+                "We have conducted several programs, webinars, quiz competitions and making further many other new activities in future.",
+                "We have conducted several programs, webinars, quiz competitions and making further many other new activities in future."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "future_plans",
+            "patterns": [
+                "What is s4s?",
+                "What activities have been taken under it?",
+                "s4s",
+                "students 4 students",
+                "What are your future plans?"
+            ],
+            "responses": [
+                "s4s is an organization started by students for helping other students grow with them and think out of bix.",
+                "We have conducted several programs, webinars, quiz competitions and making further many other new activities in future.",
+                "We have conducted several programs, webinars, quiz competitions and making further many other new activities in future."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Founder",
+            "patterns": [
+                "What is s4s?",
+                "s4s",
+                "students 4 students",
+                "Who is the founder of this club?"
+            ],
+            "responses": [
+                "s4s is an organization started by students for helping other students grow with them and think out of bix.",
+                "The Founder of s4s is A Student like you, but now is anonymous!!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Founder",
+            "patterns": [
+                "What is s4s?",
+                "s4s",
+                "students 4 students",
+                "Who is the founder of this club?"
+            ],
+            "responses": [
+                "s4s is an organization started by students for helping other students grow with them and think out of bix.",
+                "The Founder of s4s is A Student like you, but now is anonymous!!"
+            ],
+            "context_set": ""
+        }
+    ]
+}
